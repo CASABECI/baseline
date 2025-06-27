@@ -19,7 +19,7 @@
   "dependencies": {
     "@baseline-protocol/types": "1.1.0",
     "@types/uuid": "^8.0.0",
-    "big-integer": "^1.6.48",
+    "big-integer": "^1.6.52",
     "hex-to-binary": "^1.0.1",
     "keccak": "^3.0.1",
     "provide-js": "^1.5.1",
