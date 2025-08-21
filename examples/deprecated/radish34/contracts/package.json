@@ -5,7 +5,9 @@
   "main": "src/utils.js",
   "scripts": {
     "test": "jest --runInBand --forceExit --detectOpenHandles",
-    "build": "./node_modules/.bin/truffle compile"
+    "build": "./node_modules/.bin/truffle compile",
+    "prepare": "npm run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "author": "",
   "license": "ISC",
@@ -24,7 +26,8 @@
     "@openzeppelin/contracts": "^3.1.0",
     "ethereum-doppelganger": "^0.0.7",
     "ethers": "^4.0.46",
-    "solc": "^0.6.12"
+    "solc": "^0.6.12",
+    "@snyk/protect": "latest"
   },
   "jest": {
     "testEnvironment": "node",
@@ -32,5 +35,6 @@
     "testPathIgnorePatterns": [
       "./__tests__/mockVerifierData.js"
     ]
-  }
+  },
+  "snyk": true
 }
