@@ -8,7 +8,9 @@
     "ganache:stop": "docker stop $(docker ps | grep trufflesuite/ganache-cli | sed 's/ .*//') || true",
     "test": "npm run test:startup && npm run build && ./node_modules/.bin/jest --runInBand --color --forceExit --detectOpenHandles && npm run test:teardown",
     "test:startup": "npm run ganache:start",
-    "test:teardown": "npm run ganache:stop"
+    "test:teardown": "npm run ganache:stop",
+    "prepare": "npm run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "license": "CC0 1.0 Universal",
   "devDependencies": {
@@ -27,7 +29,8 @@
     "@openzeppelin/contracts": "^3.1.0",
     "ethereum-doppelganger": "^0.0.7",
     "ethers": "^4.0.46",
-    "solc": "^0.6.10"
+    "solc": "^0.6.10",
+    "@snyk/protect": "latest"
   },
   "jest": {
     "testEnvironment": "node",
@@ -35,5 +38,6 @@
     "testPathIgnorePatterns": [
       "./test/mockVerifierData.js"
     ]
-  }
+  },
+  "snyk": true
 }
