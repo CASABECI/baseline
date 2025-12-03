@@ -27,8 +27,8 @@
     "validate": "npm run lint && npm run lint:md"
   },
   "dependencies": {
-    "apollo-server": "^2.11.0",
-    "apollo-server-express": "^2.11.0",
+    "apollo-server": "^3.13.0",
+    "apollo-server-express": "^3.13.0",
     "axios": "^0.19.2",
     "big-integer": "^1.6.47",
     "body-parser": "^1.19.0",
@@ -38,7 +38,7 @@
     "cors": "^2.8.5",
     "elliptic": "^6.5.2",
     "ethers": "^4.0.46",
-    "express": "^4.17.1",
+    "express": "^4.22.0",
     "graphql": "^14.6.0",
     "graphql-subscriptions": "^1.1.0",
     "graphql-tag": "^2.10.3",
