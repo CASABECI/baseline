@@ -46,7 +46,7 @@
     "bull": "^3.12.1",
     "bull-board": "^0.6.0",
     "colors": "^1.4.0",
-    "express": "^4.17.1",
+    "express": "^4.22.0",
     "mongoose": "^5.9.5",
     "radish34-logger": "file:../logger",
     "web3": "^1.2.6"
