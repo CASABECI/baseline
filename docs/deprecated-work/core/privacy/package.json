@@ -18,7 +18,7 @@
   },
   "dependencies": {
     "@baseline-protocol/types": "1.1.0",
-    "@types/uuid": "^8.0.0",
+    "@types/uuid": "^8.3.4",
     "big-integer": "^1.6.48",
     "hex-to-binary": "^1.0.1",
     "keccak": "^3.0.1",
