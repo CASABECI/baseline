@@ -24,7 +24,7 @@
   },
   "dependencies": {
     "ts-natsutil": "^1.1.0",
-    "web3": "^1.2.6",
+    "web3": "^4.0.1",
     "winston": "^3.2.1"
   },
   "devDependencies": {
