@@ -37,7 +37,7 @@
     "@nestjs/cqrs": "^9.0.1",
     "@nestjs/jwt": "^9.0.0",
     "@nestjs/passport": "^9.0.0",
-    "@nestjs/platform-express": "^9.0.0",
+    "@nestjs/platform-express": "^11.1.5",
     "@nestjs/schedule": "^3.0.1",
     "@nestjs/swagger": "^7.3.1",
     "@noble/curves": "^1.2.0",
