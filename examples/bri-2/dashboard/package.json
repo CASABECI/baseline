@@ -26,7 +26,7 @@
     "@types/react": "16.9.49",
     "@zeit/next-css": "1.0.1",
     "@zeit/next-sass": "1.0.1",
-    "axios": "^0.20.0",
+    "axios": "^1.12.0",
     "dotenv": "^8.2.0",
     "envfile": "^6.14.0",
     "ethers": "^5.0.14",
