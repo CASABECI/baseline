@@ -25,7 +25,7 @@
     "@babel/preset-env": "^7.9.0",
     "@openzeppelin/contracts": "^3.1.0",
     "ethereum-doppelganger": "^0.0.7",
-    "ethers": "^4.0.46",
+    "ethers": "^5.0.0",
     "solc": "^0.6.12",
     "@snyk/protect": "latest"
   },
