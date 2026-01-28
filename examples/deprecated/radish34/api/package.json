@@ -44,7 +44,7 @@
     "graphql-tag": "^2.10.3",
     "hex-to-binary": "1.0.1",
     "keccak": "^2.1.0",
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.23",
     "mongodb": "^3.5.5",
     "mongoose": "^5.9.5",
     "node-fetch": "^2.6.0",
