@@ -1,0 +1,63 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  font-family: 'Source Sans 3', system-ui, sans-serif;
+  background:
+    radial-gradient(ellipse at top, rgba(61, 52, 112, 0.45), transparent 55%),
+    radial-gradient(ellipse at bottom right, rgba(201, 162, 39, 0.08), transparent 40%),
+    #1a1433;
+}
+
+h1,
+h2,
+h3 {
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  letter-spacing: 0.01em;
+}
+
+.section-pad {
+  @apply px-6 py-16 md:px-10 md:py-24 lg:px-16;
+}
+
+.fade-in {
+  opacity: 0;
+  transform: translateY(18px);
+  transition: opacity 700ms ease, transform 700ms ease;
+}
+
+.fade-in.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.card {
+  @apply rounded-2xl border border-gold-soft/20 bg-indigo-dusk/60 p-6 shadow-glow backdrop-blur;
+}
+
+.btn-primary {
+  @apply inline-flex items-center justify-center rounded-full bg-gold-warm px-6 py-3 text-sm font-semibold text-indigo-deep transition hover:bg-gold-bright focus:outline-none focus-visible:ring-2 focus-visible:ring-gold-bright focus-visible:ring-offset-2 focus-visible:ring-offset-indigo-deep;
+}
+
+.btn-secondary {
+  @apply inline-flex items-center justify-center rounded-full border border-gold-soft/40 px-6 py-3 text-sm font-semibold text-cream transition hover:border-gold-bright hover:text-gold-bright focus:outline-none focus-visible:ring-2 focus-visible:ring-gold-soft;
+}
+
+.input {
+  @apply w-full rounded-xl border border-gold-soft/25 bg-indigo-deep/70 px-4 py-3 text-cream placeholder:text-cream/40 focus:border-gold-soft focus:outline-none focus:ring-1 focus:ring-gold-soft;
+}
+
+.label {
+  @apply mb-2 block text-sm text-cream/80;
+}
